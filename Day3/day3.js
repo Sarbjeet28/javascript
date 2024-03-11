@@ -16,3 +16,13 @@ console.log(typeof number1);
 console.table([string1, string2, string3, string4, string5]);
 console.log(typeof string2);
 console.log(typeof string3);
+
+let name1= "sarbjeet";
+console.log(name1);
+console.log(typeof name1);
+
+let name2="33abdf";
+let nameinnumber= Number(name2);
+console.log(name2);
+console.log(typeof nameinnumber);
+console.log(nameinnumber);
