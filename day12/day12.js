@@ -17,7 +17,7 @@ function addtwonumbers(num1, num2){
 addtwonumbers(30,50);
 
 // function define with parameters
-function addtwonumbers(num1, num2){
+function addtwonumbers1(num1, num2){
     // let result= num1+num2
     // return result
 
@@ -25,6 +25,6 @@ function addtwonumbers(num1, num2){
     return num1+num2                         
 
 }
-let result= addtwonumbers(10,20);
+let result= addtwonumbers1(10,20);
 // when we console result without writing return statement in function , it gives output as undefined 
 console.log("result is: ", result);
