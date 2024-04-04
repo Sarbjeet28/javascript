@@ -6,7 +6,7 @@ var age = 22;
 
 // 2. Explain the difference between let, const, and var when declaring variables.
 // Ans: const keyword is used to declare variables and we can not reasign new value to a variable  after execution
-//  var and let keyword are used to declare variables, in let keyword we cant redeclare variable , we can reassign a new value in the variable. on the other hand var kwyword redeclare and reassign the value in varible so it is not preferable when multiple developers working on same project.
+//  var and let keyword are used to declare variables, in let keyword we cant redeclare variable , we can reassign a new value in the variable. on the other hand var keyword redeclare and reassign the value in varible so it is not preferable when multiple developers working on same project.
 var age = 21;
 name = "sarb";
 
@@ -16,12 +16,9 @@ name = "sarb";
 // console.log(typeof id);
 
 // 4. Create a variable and store a string in it. Then, create another variable and store a number. How would you check if one variable is of the same data type as the other?
-// Ans: if we want one variable is of same type as other we will convert number data type variable to string data type
 let a = "hello world";
 let b = 11;
-let b_instring = String(b)
-// console.log(typeof a);
-// console.log(typeof b_instring);
+console.log(typeof a == typeof b);
 
 // 5. How do you create an empty array in JavaScript?
 let myarr = [];
